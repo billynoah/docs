@@ -84,9 +84,9 @@ If you are working on a local machine, unmount the disk manually.
 
 ## How to Check for Errors on a Disk
 
-Run fsck on the target disk, using the desired options. This example checks all file systems (`-A`) on `/dev/sdb`:
+Run fsck on the target disk, using the desired options. This example checks all disks listed in `/etc/fstab`:
 
-    fsck -A /dev/sdb
+    fsck -A
 
 ### Understand fsck Error Codes
 
